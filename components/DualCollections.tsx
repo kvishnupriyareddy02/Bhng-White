@@ -68,21 +68,7 @@ export default function DualCollections() {
 
       <div className="dual-side dual-BHNG">
 
-        <div className="dual-side-header">
-          <p>01 / THE DARK SIDE</p>
-
-          <h2
-            style={{
-              fontFamily: "Times New Roman, serif",
-            }}
-          >
-            BHNG
-          </h2>
-
-          <p className="dual-description">
-            STREET / RAW / UNFILTERED
-          </p>
-        </div>
+        
 
         <div className="dual-products">
 
@@ -94,15 +80,11 @@ export default function DualCollections() {
             >
 
               <div className="dual-product-image">
-
-                <img
-                  src={product.image}
-                  alt={product.title}
-                />
-
-                <span>BHNG</span>
-
-              </div>
+  <img
+    src={product.image}
+    alt={product.title}
+  />
+</div>
 
               <div className="dual-product-info">
                 <span>{product.title}</span>
@@ -123,21 +105,7 @@ export default function DualCollections() {
 
       <div className="dual-side dual-WHTE">
 
-        <div className="dual-side-header">
-          <p>02 / THE LIGHT SIDE</p>
 
-          <h2
-            style={{
-              fontFamily: "Times New Roman, serif",
-            }}
-          >
-            WHTE
-          </h2>
-
-          <p className="dual-description">
-            CULTURE / FORM / FUTURE
-          </p>
-        </div>
 
         <div className="dual-products">
 
@@ -149,15 +117,11 @@ export default function DualCollections() {
             >
 
               <div className="dual-product-image">
-
-                <img
-                  src={product.image}
-                  alt={product.title}
-                />
-
-                <span>WHTE</span>
-
-              </div>
+  <img
+    src={product.image}
+    alt={product.title}
+  />
+</div>
 
               <div className="dual-product-info">
                 <span>{product.title}</span>
