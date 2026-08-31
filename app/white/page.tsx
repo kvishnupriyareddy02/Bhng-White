@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Cursor from "@/components/Cursor";
 
-const whiteProducts = [
+const WHTEProducts = [
   {
     image: "/products/hoodie-01.jpg",
     name: "B&W 01",
@@ -33,7 +33,7 @@ const whiteProducts = [
   },
 ];
 
-export default function WhitePage() {
+export default function WHTEPage() {
   const router = useRouter();
   const [isLeaving, setIsLeaving] = useState(false);
 
@@ -49,42 +49,42 @@ export default function WhitePage() {
     <>
       <Cursor />
 
-      <main className="white-page">
+      <main className="WHTE-page">
 
         {/* NAVIGATION */}
-        <nav className="white-nav">
+        <nav className="WHTE-nav">
           <button
             type="button"
             onClick={goHome}
-            className="white-logo"
+            className="WHTE-logo"
           >
             B&W
           </button>
 
-          <div className="white-nav-right">
-            <span>WHITE</span>
+          <div className="WHTE-nav-right">
+            <span>WHTE</span>
             <span>COLLECTION 001</span>
           </div>
         </nav>
 
         {/* HERO */}
-        <section className="white-hero">
-          <div className="white-hero-pattern" />
+        <section className="WHTE-hero">
+          <div className="WHTE-hero-pattern" />
 
-          <div className="white-hero-content">
-            <p className="white-kicker">
+          <div className="WHTE-hero-content">
+            <p className="WHTE-kicker">
               B&W / THE LIGHT SIDE / 001
             </p>
 
-            <h1>WHITE</h1>
+            <h1>WHTE</h1>
 
-            <p className="white-hero-description">
+            <p className="WHTE-hero-description">
               ROOTED IN CULTURE.
               <br />
               MADE FOR NOW.
             </p>
 
-            <div className="white-scroll">
+            <div className="WHTE-scroll">
               <span>SCROLL TO ENTER</span>
               <span>↓</span>
             </div>
@@ -92,8 +92,8 @@ export default function WhitePage() {
         </section>
 
         {/* INTRO */}
-        <section className="white-intro">
-          <p className="white-intro-number">
+        <section className="WHTE-intro">
+          <p className="WHTE-intro-number">
             01
           </p>
 
@@ -103,7 +103,7 @@ export default function WhitePage() {
             SIDE OF B&W
           </h2>
 
-          <p className="white-intro-copy">
+          <p className="WHTE-intro-copy">
             Tradition, identity and modern Indian
             expression brought together through
             a contemporary lens.
@@ -111,33 +111,33 @@ export default function WhitePage() {
         </section>
 
         {/* PRODUCTS */}
-        <section className="white-products">
-          <div className="white-section-heading">
+        <section className="WHTE-products">
+          <div className="WHTE-section-heading">
             <span>THE COLLECTION</span>
             <span>05 PIECES</span>
           </div>
 
-          <div className="white-product-wall">
-            {whiteProducts.map((product) => (
+          <div className="WHTE-product-wall">
+            {WHTEProducts.map((product) => (
               <Link
                 key={product.number}
                 href={`/product/bw-${product.number}`}
-                className="white-product-card"
+                className="WHTE-product-card"
               >
-                <div className="white-product-image">
+                <div className="WHTE-product-image">
                   <img
                     src={product.image}
                     alt={product.name}
                   />
 
-                  <span className="white-product-number">
+                  <span className="WHTE-product-number">
                     {product.number}
                   </span>
                 </div>
 
-                <div className="white-product-info">
+                <div className="WHTE-product-info">
                   <span>{product.name}</span>
-                  <span>WHITE ↗</span>
+                  <span>WHTE ↗</span>
                 </div>
               </Link>
             ))}
@@ -145,8 +145,8 @@ export default function WhitePage() {
         </section>
 
         {/* END */}
-        <section className="white-end">
-          <p>THIS IS WHITE.</p>
+        <section className="WHTE-end">
+          <p>THIS IS WHTE.</p>
 
           <h2>
             ROOTED
@@ -157,7 +157,7 @@ export default function WhitePage() {
           <button
             type="button"
             onClick={goHome}
-            className="white-back"
+            className="WHTE-back"
           >
             ← BACK TO B&W
           </button>

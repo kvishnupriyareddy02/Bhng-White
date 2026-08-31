@@ -2,7 +2,7 @@
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-10 py-8 text-white">
+    <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-10 py-8 text-WHTE">
 
       <h1
         className="text-3xl tracking-[0.4em]"
@@ -19,11 +19,11 @@ export default function Navbar() {
         </a>
 
         <a className="hover:opacity-60 transition">
-          BHANG
+          BHNG
         </a>
 
         <a className="hover:opacity-60 transition">
-          WHITE
+          WHTE
         </a>
 
         <a className="hover:opacity-60 transition">

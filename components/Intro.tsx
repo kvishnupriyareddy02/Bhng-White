@@ -27,7 +27,7 @@ export default function Intro() {
             initial={{ scale: 0.7, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1 }}
-            className="text-white text-8xl md:text-9xl font-serif tracking-widest"
+            className="text-WHTE text-8xl md:text-9xl font-serif tracking-widest"
           >
             B&amp;W
           </motion.h1>

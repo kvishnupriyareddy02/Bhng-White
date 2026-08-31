@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Cursor from "@/components/Cursor";
 
-const bhangProducts = [
+const BHNGProducts = [
   {
     image: "/products/hoodie-07.jpg",
     name: "B&W 07",
@@ -33,7 +33,7 @@ const bhangProducts = [
   },
 ];
 
-export default function BhangPage() {
+export default function BHNGPage() {
   const router = useRouter();
   const [isLeaving, setIsLeaving] = useState(false);
 
@@ -49,42 +49,42 @@ export default function BhangPage() {
     <>
       <Cursor />
 
-      <main className="bhang-page">
+      <main className="BHNG-page">
 
         {/* NAVIGATION */}
-        <nav className="bhang-nav">
+        <nav className="BHNG-nav">
           <button
             type="button"
             onClick={goHome}
-            className="bhang-logo"
+            className="BHNG-logo"
           >
             B&W
           </button>
 
-          <div className="bhang-nav-right">
-            <span>BHANG</span>
+          <div className="BHNG-nav-right">
+            <span>BHNG</span>
             <span>COLLECTION 001</span>
           </div>
         </nav>
 
         {/* HERO */}
-        <section className="bhang-hero">
-          <div className="bhang-hero-background" />
+        <section className="BHNG-hero">
+          <div className="BHNG-hero-background" />
 
-          <div className="bhang-hero-content">
-            <p className="bhang-kicker">
+          <div className="BHNG-hero-content">
+            <p className="BHNG-kicker">
               B&W / THE DARK SIDE / 001
             </p>
 
-            <h1>BHANG</h1>
+            <h1>BHNG</h1>
 
-            <p className="bhang-hero-description">
+            <p className="BHNG-hero-description">
               RAW ENERGY.
               <br />
               NO FILTER.
             </p>
 
-            <div className="bhang-scroll">
+            <div className="BHNG-scroll">
               <span>SCROLL TO ENTER</span>
               <span>↓</span>
             </div>
@@ -92,8 +92,8 @@ export default function BhangPage() {
         </section>
 
         {/* INTRO */}
-        <section className="bhang-intro">
-          <p className="bhang-intro-number">
+        <section className="BHNG-intro">
+          <p className="BHNG-intro-number">
             01
           </p>
 
@@ -103,7 +103,7 @@ export default function BhangPage() {
             SIDE OF B&W
           </h2>
 
-          <p className="bhang-intro-copy">
+          <p className="BHNG-intro-copy">
             A collection built around movement,
             rebellion and the energy that refuses
             to stay quiet.
@@ -111,33 +111,33 @@ export default function BhangPage() {
         </section>
 
         {/* PRODUCTS */}
-        <section className="bhang-products">
-          <div className="bhang-section-heading">
+        <section className="BHNG-products">
+          <div className="BHNG-section-heading">
             <span>THE COLLECTION</span>
             <span>05 PIECES</span>
           </div>
 
-          <div className="bhang-product-wall">
-            {bhangProducts.map((product) => (
+          <div className="BHNG-product-wall">
+            {BHNGProducts.map((product) => (
               <Link
                 key={product.number}
                 href={`/product/bw-${product.number}`}
-                className="bhang-product-card"
+                className="BHNG-product-card"
               >
-                <div className="bhang-product-image">
+                <div className="BHNG-product-image">
                   <img
                     src={product.image}
                     alt={product.name}
                   />
 
-                  <span className="bhang-product-number">
+                  <span className="BHNG-product-number">
                     {product.number}
                   </span>
                 </div>
 
-                <div className="bhang-product-info">
+                <div className="BHNG-product-info">
                   <span>{product.name}</span>
-                  <span>BHANG ↗</span>
+                  <span>BHNG ↗</span>
                 </div>
               </Link>
             ))}
@@ -145,8 +145,8 @@ export default function BhangPage() {
         </section>
 
         {/* END */}
-        <section className="bhang-end">
-          <p>THIS IS BHANG.</p>
+        <section className="BHNG-end">
+          <p>THIS IS BHNG.</p>
 
           <h2>
             STAY
@@ -157,7 +157,7 @@ export default function BhangPage() {
           <button
             type="button"
             onClick={goHome}
-            className="bhang-back"
+            className="BHNG-back"
           >
             ← BACK TO B&W
           </button>

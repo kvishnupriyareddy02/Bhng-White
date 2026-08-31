@@ -3,38 +3,38 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-const bhangProducts = [
+const BHNGProducts = [
   {
     image: "/products/hoodie-01.jpg",
-    title: "BHANG / 01",
+    title: "BHNG / 01",
     id: "bw-01",
   },
   {
     image: "/products/hoodie-03.jpg",
-    title: "BHANG / 03",
+    title: "BHNG / 03",
     id: "bw-03",
   },
   {
     image: "/products/hoodie-05.jpg",
-    title: "BHANG / 05",
+    title: "BHNG / 05",
     id: "bw-05",
   },
 ];
 
-const whiteProducts = [
+const WHTEProducts = [
   {
     image: "/products/hoodie-02.jpg",
-    title: "WHITE / 02",
+    title: "WHTE / 02",
     id: "bw-02",
   },
   {
     image: "/products/hoodie-04.jpg",
-    title: "WHITE / 04",
+    title: "WHTE / 04",
     id: "bw-04",
   },
   {
     image: "/products/hoodie-06.jpg",
-    title: "WHITE / 06",
+    title: "WHTE / 06",
     id: "bw-06",
   },
 ];
@@ -43,11 +43,11 @@ export default function DualCollections() {
   const router = useRouter();
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  const openCollection = (side: "bhang" | "white") => {
+  const openCollection = (side: "BHNG" | "WHTE") => {
     setIsTransitioning(true);
 
     setTimeout(() => {
-      router.push(side === "bhang" ? "/bhang" : "/white");
+      router.push(side === "BHNG" ? "/BHNG" : "/WHTE");
     }, 500);
   };
 
@@ -63,10 +63,10 @@ export default function DualCollections() {
     <section className="dual-collections">
 
       {/* =====================================================
-          BHANG SIDE
+          BHNG SIDE
       ===================================================== */}
 
-      <div className="dual-side dual-bhang">
+      <div className="dual-side dual-BHNG">
 
         <div className="dual-side-header">
           <p>01 / THE DARK SIDE</p>
@@ -76,7 +76,7 @@ export default function DualCollections() {
               fontFamily: "Times New Roman, serif",
             }}
           >
-            BHANG
+            BHNG
           </h2>
 
           <p className="dual-description">
@@ -86,7 +86,7 @@ export default function DualCollections() {
 
         <div className="dual-products">
 
-          {bhangProducts.map((product) => (
+          {BHNGProducts.map((product) => (
             <article
               className="dual-product"
               key={product.id}
@@ -100,7 +100,7 @@ export default function DualCollections() {
                   alt={product.title}
                 />
 
-                <span>BHANG</span>
+                <span>BHNG</span>
 
               </div>
 
@@ -118,10 +118,10 @@ export default function DualCollections() {
 
 
       {/* =====================================================
-          WHITE SIDE
+          WHTE SIDE
       ===================================================== */}
 
-      <div className="dual-side dual-white">
+      <div className="dual-side dual-WHTE">
 
         <div className="dual-side-header">
           <p>02 / THE LIGHT SIDE</p>
@@ -131,7 +131,7 @@ export default function DualCollections() {
               fontFamily: "Times New Roman, serif",
             }}
           >
-            WHITE
+            WHTE
           </h2>
 
           <p className="dual-description">
@@ -141,7 +141,7 @@ export default function DualCollections() {
 
         <div className="dual-products">
 
-          {whiteProducts.map((product) => (
+          {WHTEProducts.map((product) => (
             <article
               className="dual-product"
               key={product.id}
@@ -155,7 +155,7 @@ export default function DualCollections() {
                   alt={product.title}
                 />
 
-                <span>WHITE</span>
+                <span>WHTE</span>
 
               </div>
 
@@ -186,23 +186,23 @@ export default function DualCollections() {
 
         <div className="dual-campaign-split">
 
-          {/* BHANG */}
+          {/* BHNG */}
 
           <button
             type="button"
-            onClick={() => openCollection("bhang")}
-            className="campaign-half campaign-bhang"
+            onClick={() => openCollection("BHNG")}
+            className="campaign-half campaign-BHNG"
           >
 
             <img
               src="/products/hoodie-07.jpg"
-              alt="Bhang collection"
+              alt="BHNG collection"
             />
 
             <div className="campaign-overlay campaign-overlay-dark">
 
               <span className="campaign-side-name">
-                BHANG
+                BHNG
               </span>
 
               <span className="campaign-explore">
@@ -214,23 +214,23 @@ export default function DualCollections() {
           </button>
 
 
-          {/* WHITE */}
+          {/* WHTE */}
 
           <button
             type="button"
-            onClick={() => openCollection("white")}
-            className="campaign-half campaign-white"
+            onClick={() => openCollection("WHTE")}
+            className="campaign-half campaign-WHTE"
           >
 
             <img
               src="/products/hoodie-09.jpg"
-              alt="White collection"
+              alt="WHTE collection"
             />
 
             <div className="campaign-overlay campaign-overlay-light">
 
               <span className="campaign-side-name">
-                WHITE
+                WHTE
               </span>
 
               <span className="campaign-explore">

@@ -164,8 +164,8 @@ body {
   inset: 0;
   opacity: 0.035;
   background-image:
-    radial-gradient(circle at 20% 20%, white 0 0.5px, transparent 0.7px),
-    radial-gradient(circle at 80% 70%, white 0 0.5px, transparent 0.7px);
+    radial-gradient(circle at 20% 20%, WHTE 0 0.5px, transparent 0.7px),
+    radial-gradient(circle at 80% 70%, WHTE 0 0.5px, transparent 0.7px);
   background-size: 7px 7px, 11px 11px;
 }
 
@@ -482,7 +482,7 @@ body {
     rgba(0, 0, 0, 0.9),
     transparent
   );
-  color: white;
+  color: WHTE;
   opacity: 0;
   transform: translateY(8px);
   transition:
@@ -496,7 +496,7 @@ body {
 }
 
 .cyber-product-name {
-  color: white;
+  color: WHTE;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -593,7 +593,7 @@ body {
 .cyber-system-box strong {
   display: block;
   margin: 12px 0;
-  color: white;
+  color: WHTE;
   font-family: "Times New Roman", serif;
   font-size: 60px;
   line-height: 0.8;
@@ -696,7 +696,7 @@ body {
 
 .cyber-break-text {
   margin: 60px 0;
-  color: white;
+  color: WHTE;
   font-size: clamp(6rem, 15vw, 15rem);
   line-height: 0.7;
   letter-spacing: -0.07em;
@@ -796,7 +796,7 @@ body {
 
 .cyber-footer-title {
   margin: 45px 0;
-  color: white;
+  color: WHTE;
   font-size: clamp(4rem, 12vw, 12rem);
   line-height: 0.7;
   letter-spacing: -0.07em;
@@ -1695,7 +1695,7 @@ body {
 
   background: #050505;
 
-  color: white;
+  color: WHTE;
 }
 
 
@@ -1749,10 +1749,10 @@ body {
 
 
 /* =========================================================
-   BHANG SIDE
+   BHNG SIDE
    ========================================================= */
 
-.dual-bhang {
+.dual-BHNG {
   background:
     radial-gradient(
       circle at 20% 15%,
@@ -1764,10 +1764,10 @@ body {
 
 
 /* =========================================================
-   WHITE SIDE
+   WHTE SIDE
    ========================================================= */
 
-.dual-white {
+.dual-WHTE {
   background:
     radial-gradient(
       circle at 80% 15%,
@@ -1816,14 +1816,14 @@ body {
   text-transform: uppercase;
 }
 
-.dual-bhang .dual-side-header h2 {
-  color: white;
+.dual-BHNG .dual-side-header h2 {
+  color: WHTE;
 
   text-shadow:
     0 0 15px rgba(255, 20, 147, 0.7);
 }
 
-.dual-white .dual-side-header h2 {
+.dual-WHTE .dual-side-header h2 {
   color: #080808;
 }
 
@@ -1890,7 +1890,7 @@ body {
   background: #111;
 }
 
-.dual-white .dual-product-image {
+.dual-WHTE .dual-product-image {
   background: #f7f4ef;
 }
 
@@ -1912,18 +1912,18 @@ body {
 }
 
 
-/* Bhang image */
+/* BHNG image */
 
-.dual-bhang .dual-product-image img {
+.dual-BHNG .dual-product-image img {
   filter:
     contrast(1.08)
     saturate(1.05);
 }
 
 
-/* White image */
+/* WHTE image */
 
-.dual-white .dual-product-image img {
+.dual-WHTE .dual-product-image img {
   filter:
     contrast(0.98)
     saturate(0.92);
@@ -1945,14 +1945,14 @@ body {
   letter-spacing: 0.3em;
 }
 
-.dual-bhang .dual-product-image > span {
+.dual-BHNG .dual-product-image > span {
   color: #ff1493;
 
   text-shadow:
     0 0 10px rgba(255, 20, 147, 0.8);
 }
 
-.dual-white .dual-product-image > span {
+.dual-WHTE .dual-product-image > span {
   color: #080808;
 }
 
@@ -1976,11 +1976,11 @@ body {
   text-transform: uppercase;
 }
 
-.dual-bhang .dual-product-info {
+.dual-BHNG .dual-product-info {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.dual-white .dual-product-info {
+.dual-WHTE .dual-product-info {
   color: rgba(0, 0, 0, 0.55);
 }
 
@@ -2083,19 +2083,19 @@ body {
 
 
 /* =========================================================
-   BHANG CAMPAIGN BACKGROUND
+   BHNG CAMPAIGN BACKGROUND
    ========================================================= */
 
-.campaign-bhang {
+.campaign-BHNG {
   background: #050505;
 }
 
 
 /* =========================================================
-   WHITE CAMPAIGN BACKGROUND
+   WHTE CAMPAIGN BACKGROUND
    ========================================================= */
 
-.campaign-white {
+.campaign-WHTE {
   background: #ffffff;
 }
 
@@ -2120,18 +2120,18 @@ body {
 }
 
 
-/* Bhang image */
+/* BHNG image */
 
-.campaign-bhang img {
+.campaign-BHNG img {
   filter:
     contrast(1.12)
     saturate(1.08);
 }
 
 
-/* White image */
+/* WHTE image */
 
-.campaign-white img {
+.campaign-WHTE img {
   filter:
     contrast(0.95)
     saturate(0.85);
@@ -2164,7 +2164,7 @@ body {
 }
 
 
-/* BHANG */
+/* BHNG */
 
 .campaign-overlay-dark {
   align-items: flex-start;
@@ -2178,7 +2178,7 @@ body {
 }
 
 
-/* WHITE */
+/* WHTE */
 
 .campaign-overlay-light {
   align-items: flex-end;
@@ -2211,17 +2211,17 @@ body {
 }
 
 
-/* Bhang title */
+/* BHNG title */
 
 .campaign-overlay-dark .campaign-side-name {
-  color: white;
+  color: WHTE;
 
   text-shadow:
     0 0 20px rgba(255, 20, 147, 0.4);
 }
 
 
-/* White title */
+/* WHTE title */
 
 .campaign-overlay-light .campaign-side-name {
   color: #080808;
@@ -2249,7 +2249,7 @@ body {
 }
 
 
-/* Bhang */
+/* BHNG */
 
 .campaign-overlay-dark .campaign-explore {
   color: #ff1493;
@@ -2258,7 +2258,7 @@ body {
 }
 
 
-/* White */
+/* WHTE */
 
 .campaign-overlay-light .campaign-explore {
   color: #080808;
@@ -2268,14 +2268,14 @@ body {
 
 
 /* =========================================================
-   HOVER — BHANG
+   HOVER — BHNG
    ========================================================= */
 
-.campaign-bhang:hover img {
+.campaign-BHNG:hover img {
   transform: scale(1.045);
 }
 
-.campaign-bhang:hover .campaign-overlay-dark {
+.campaign-BHNG:hover .campaign-overlay-dark {
   background:
     linear-gradient(
       to top,
@@ -2284,14 +2284,14 @@ body {
     );
 }
 
-.campaign-bhang:hover .campaign-side-name {
+.campaign-BHNG:hover .campaign-side-name {
   transform: translateX(15px);
 
   text-shadow:
     0 0 30px rgba(255, 20, 147, 0.9);
 }
 
-.campaign-bhang:hover .campaign-explore {
+.campaign-BHNG:hover .campaign-explore {
   transform: translateX(10px);
 
   letter-spacing: 0.38em;
@@ -2299,14 +2299,14 @@ body {
 
 
 /* =========================================================
-   HOVER — WHITE
+   HOVER — WHTE
    ========================================================= */
 
-.campaign-white:hover img {
+.campaign-WHTE:hover img {
   transform: scale(1.045);
 }
 
-.campaign-white:hover .campaign-overlay-light {
+.campaign-WHTE:hover .campaign-overlay-light {
   background:
     linear-gradient(
       to top,
@@ -2315,14 +2315,14 @@ body {
     );
 }
 
-.campaign-white:hover .campaign-side-name {
+.campaign-WHTE:hover .campaign-side-name {
   transform: translateX(-15px);
 
   text-shadow:
     0 0 25px rgba(0, 0, 0, 0.25);
 }
 
-.campaign-white:hover .campaign-explore {
+.campaign-WHTE:hover .campaign-explore {
   transform: translateX(-10px);
 
   letter-spacing: 0.38em;
@@ -2490,15 +2490,15 @@ body {
   }
 }
 /* =========================================================
-   BHANG COLLECTION PAGE
+   BHNG COLLECTION PAGE
    ========================================================= */
 
-.bhang-page {
+.BHNG-page {
   min-height: 100vh;
 
   background: #050505;
 
-  color: white;
+  color: WHTE;
 
   overflow: hidden;
 }
@@ -2508,7 +2508,7 @@ body {
    NAV
    ========================================================= */
 
-.bhang-nav {
+.BHNG-nav {
   position: absolute;
 
   top: 0;
@@ -2531,8 +2531,8 @@ body {
   text-transform: uppercase;
 }
 
-.bhang-logo {
-  color: white;
+.BHNG-logo {
+  color: WHTE;
 
   font-family: "Times New Roman", serif;
 
@@ -2543,7 +2543,7 @@ body {
   text-decoration: none;
 }
 
-.bhang-nav-right {
+.BHNG-nav-right {
   display: flex;
 
   gap: 35px;
@@ -2556,7 +2556,7 @@ body {
    HERO
    ========================================================= */
 
-.bhang-hero {
+.BHNG-hero {
   position: relative;
 
   min-height: 100vh;
@@ -2572,7 +2572,7 @@ body {
 
 /* background */
 
-.bhang-hero-background {
+.BHNG-hero-background {
   position: absolute;
 
   inset: 0;
@@ -2594,7 +2594,7 @@ body {
 
 /* subtle grid */
 
-.bhang-hero-background::after {
+.BHNG-hero-background::after {
   content: "";
 
   position: absolute;
@@ -2624,7 +2624,7 @@ body {
 
 /* hero content */
 
-.bhang-hero-content {
+.BHNG-hero-content {
   position: relative;
 
   z-index: 5;
@@ -2635,7 +2635,7 @@ body {
 
 /* kicker */
 
-.bhang-kicker {
+.BHNG-kicker {
   margin-bottom: 30px;
 
   color: #ff1493;
@@ -2651,7 +2651,7 @@ body {
 
 /* title */
 
-.bhang-hero h1 {
+.BHNG-hero h1 {
   margin: 0;
 
   font-family: "Times New Roman", serif;
@@ -2664,7 +2664,7 @@ body {
 
   text-transform: uppercase;
 
-  color: white;
+  color: WHTE;
 
   text-shadow:
     0 0 10px rgba(255, 20, 147, 0.35),
@@ -2674,7 +2674,7 @@ body {
 
 /* description */
 
-.bhang-hero-description {
+.BHNG-hero-description {
   margin-top: 50px;
 
   font-size: 10px;
@@ -2689,7 +2689,7 @@ body {
 
 /* scroll */
 
-.bhang-scroll {
+.BHNG-scroll {
   display: flex;
 
   flex-direction: column;
@@ -2710,7 +2710,7 @@ body {
     0 0 10px rgba(255, 20, 147, 0.8);
 }
 
-.bhang-scroll span {
+.BHNG-scroll span {
   font-size: 18px;
 }
 
@@ -2719,7 +2719,7 @@ body {
    INTRO
    ========================================================= */
 
-.bhang-intro {
+.BHNG-intro {
   display: grid;
 
   grid-template-columns: 0.5fr 2fr 1fr;
@@ -2733,7 +2733,7 @@ body {
   border-top: 1px solid rgba(255, 20, 147, 0.25);
 }
 
-.bhang-intro-number {
+.BHNG-intro-number {
   color: #ff1493;
 
   font-size: 9px;
@@ -2741,7 +2741,7 @@ body {
   letter-spacing: 0.3em;
 }
 
-.bhang-intro h2 {
+.BHNG-intro h2 {
   margin: 0;
 
   font-family: "Times New Roman", serif;
@@ -2755,7 +2755,7 @@ body {
   text-transform: uppercase;
 }
 
-.bhang-intro-copy {
+.BHNG-intro-copy {
   align-self: end;
 
   max-width: 280px;
@@ -2772,7 +2772,7 @@ body {
    PRODUCTS
    ========================================================= */
 
-.bhang-products {
+.BHNG-products {
   padding:
     8vh
     5vw
@@ -2782,7 +2782,7 @@ body {
 
 /* heading */
 
-.bhang-section-heading {
+.BHNG-section-heading {
   display: flex;
 
   justify-content: space-between;
@@ -2803,7 +2803,7 @@ body {
 
 /* wall */
 
-.bhang-product-wall {
+.BHNG-product-wall {
   display: grid;
 
   grid-template-columns:
@@ -2821,26 +2821,26 @@ body {
 
 /* cards */
 
-.bhang-product-card:nth-child(2) {
+.BHNG-product-card:nth-child(2) {
   margin-top: 15vh;
 }
 
-.bhang-product-card:nth-child(3) {
+.BHNG-product-card:nth-child(3) {
   margin-top: 4vh;
 }
 
-.bhang-product-card:nth-child(4) {
+.BHNG-product-card:nth-child(4) {
   margin-top: -5vh;
 }
 
-.bhang-product-card:nth-child(5) {
+.BHNG-product-card:nth-child(5) {
   margin-top: 12vh;
 }
 
 
 /* image */
 
-.bhang-product-image {
+.BHNG-product-image {
   position: relative;
 
   overflow: hidden;
@@ -2848,7 +2848,7 @@ body {
   background: #111;
 }
 
-.bhang-product-image img {
+.BHNG-product-image img {
   display: block;
 
   width: 100%;
@@ -2858,14 +2858,14 @@ body {
     transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.bhang-product-card:hover img {
+.BHNG-product-card:hover img {
   transform: scale(1.04);
 }
 
 
 /* number */
 
-.bhang-product-number {
+.BHNG-product-number {
   position: absolute;
 
   top: 15px;
@@ -2884,7 +2884,7 @@ body {
 
 /* info */
 
-.bhang-product-info {
+.BHNG-product-info {
   display: flex;
 
   justify-content: space-between;
@@ -2905,7 +2905,7 @@ body {
    END
    ========================================================= */
 
-.bhang-end {
+.BHNG-end {
   min-height: 80vh;
 
   display: flex;
@@ -2930,7 +2930,7 @@ body {
     #050505;
 }
 
-.bhang-end > p {
+.BHNG-end > p {
   color: #ff1493;
 
   font-size: 8px;
@@ -2938,7 +2938,7 @@ body {
   letter-spacing: 0.4em;
 }
 
-.bhang-end h2 {
+.BHNG-end h2 {
   margin: 35px 0 60px;
 
   font-family: "Times New Roman", serif;
@@ -2950,8 +2950,8 @@ body {
   letter-spacing: -0.08em;
 }
 
-.bhang-back {
-  color: white;
+.BHNG-back {
+  color: WHTE;
 
   font-size: 8px;
 
@@ -2967,7 +2967,7 @@ body {
     color 300ms ease;
 }
 
-.bhang-back:hover {
+.BHNG-back:hover {
   color: #ff1493;
 }
 
@@ -2978,67 +2978,67 @@ body {
 
 @media (max-width: 767px) {
 
-  .bhang-nav {
+  .BHNG-nav {
     padding: 20px;
   }
 
-  .bhang-nav-right {
+  .BHNG-nav-right {
     gap: 10px;
 
     font-size: 6px;
   }
 
-  .bhang-intro {
+  .BHNG-intro {
     display: block;
 
     padding: 15vh 8vw;
   }
 
-  .bhang-intro-number {
+  .BHNG-intro-number {
     margin-bottom: 40px;
   }
 
-  .bhang-intro-copy {
+  .BHNG-intro-copy {
     margin-top: 40px;
   }
 
-  .bhang-product-wall {
+  .BHNG-product-wall {
     grid-template-columns: 1fr 1fr;
 
     gap: 10vh 15px;
   }
 
-  .bhang-product-card:nth-child(n) {
+  .BHNG-product-card:nth-child(n) {
     margin-top: 0;
   }
 
-  .bhang-product-card:nth-child(2),
-  .bhang-product-card:nth-child(5) {
+  .BHNG-product-card:nth-child(2),
+  .BHNG-product-card:nth-child(5) {
     margin-top: 10vh;
   }
-.bhang-product-card {
+.BHNG-product-card {
   display: block;
 
   color: inherit;
 
   text-decoration: none;
 }
-  .bhang-product-info {
+  .BHNG-product-info {
     display: block;
 
     line-height: 1.7;
   }
 
-  .bhang-product-info span:last-child {
+  .BHNG-product-info span:last-child {
     display: block;
   }
 
 }
 /* =========================================================
-   WHITE COLLECTION PAGE
+   WHTE COLLECTION PAGE
    ========================================================= */
 
-.white-page {
+.WHTE-page {
   min-height: 100vh;
 
   background: #ebe7e1;
@@ -3053,7 +3053,7 @@ body {
    NAV
    ========================================================= */
 
-.white-nav {
+.WHTE-nav {
   position: absolute;
 
   top: 0;
@@ -3076,7 +3076,7 @@ body {
   text-transform: uppercase;
 }
 
-.white-logo {
+.WHTE-logo {
   color: #080808;
 
   font-family: "Times New Roman", serif;
@@ -3088,7 +3088,7 @@ body {
   text-decoration: none;
 }
 
-.white-nav-right {
+.WHTE-nav-right {
   display: flex;
 
   gap: 35px;
@@ -3101,7 +3101,7 @@ body {
    HERO
    ========================================================= */
 
-.white-hero {
+.WHTE-hero {
   position: relative;
 
   min-height: 100vh;
@@ -3117,7 +3117,7 @@ body {
 
 /* subtle warm background */
 
-.white-hero-pattern {
+.WHTE-hero-pattern {
   position: absolute;
 
   inset: 0;
@@ -3134,7 +3134,7 @@ body {
 
 /* subtle Indian-inspired grid/pattern */
 
-.white-hero-pattern::after {
+.WHTE-hero-pattern::after {
   content: "";
 
   position: absolute;
@@ -3165,7 +3165,7 @@ body {
 
 /* hero content */
 
-.white-hero-content {
+.WHTE-hero-content {
   position: relative;
 
   z-index: 5;
@@ -3176,7 +3176,7 @@ body {
 
 /* kicker */
 
-.white-kicker {
+.WHTE-kicker {
   margin-bottom: 30px;
 
   color: rgba(8, 8, 8, 0.55);
@@ -3189,7 +3189,7 @@ body {
 
 /* title */
 
-.white-hero h1 {
+.WHTE-hero h1 {
   margin: 0;
 
   font-family: "Times New Roman", serif;
@@ -3206,7 +3206,7 @@ body {
 
 /* description */
 
-.white-hero-description {
+.WHTE-hero-description {
   margin-top: 50px;
 
   font-size: 10px;
@@ -3221,7 +3221,7 @@ body {
 
 /* scroll */
 
-.white-scroll {
+.WHTE-scroll {
   display: flex;
 
   flex-direction: column;
@@ -3239,7 +3239,7 @@ body {
   letter-spacing: 0.35em;
 }
 
-.white-scroll span {
+.WHTE-scroll span {
   font-size: 18px;
 }
 
@@ -3248,7 +3248,7 @@ body {
    INTRO
    ========================================================= */
 
-.white-intro {
+.WHTE-intro {
   display: grid;
 
   grid-template-columns: 0.5fr 2fr 1fr;
@@ -3262,7 +3262,7 @@ body {
   border-top: 1px solid rgba(8, 8, 8, 0.15);
 }
 
-.white-intro-number {
+.WHTE-intro-number {
   color: rgba(8, 8, 8, 0.5);
 
   font-size: 9px;
@@ -3270,7 +3270,7 @@ body {
   letter-spacing: 0.3em;
 }
 
-.white-intro h2 {
+.WHTE-intro h2 {
   margin: 0;
 
   font-family: "Times New Roman", serif;
@@ -3284,7 +3284,7 @@ body {
   text-transform: uppercase;
 }
 
-.white-intro-copy {
+.WHTE-intro-copy {
   align-self: end;
 
   max-width: 280px;
@@ -3301,7 +3301,7 @@ body {
    PRODUCTS
    ========================================================= */
 
-.white-products {
+.WHTE-products {
   padding:
     8vh
     5vw
@@ -3311,7 +3311,7 @@ body {
 
 /* heading */
 
-.white-section-heading {
+.WHTE-section-heading {
   display: flex;
 
   justify-content: space-between;
@@ -3332,7 +3332,7 @@ body {
 
 /* product wall */
 
-.white-product-wall {
+.WHTE-product-wall {
   display: grid;
 
   grid-template-columns:
@@ -3350,26 +3350,26 @@ body {
 
 /* varied positioning */
 
-.white-product-card:nth-child(2) {
+.WHTE-product-card:nth-child(2) {
   margin-top: 15vh;
 }
 
-.white-product-card:nth-child(3) {
+.WHTE-product-card:nth-child(3) {
   margin-top: 4vh;
 }
 
-.white-product-card:nth-child(4) {
+.WHTE-product-card:nth-child(4) {
   margin-top: -5vh;
 }
 
-.white-product-card:nth-child(5) {
+.WHTE-product-card:nth-child(5) {
   margin-top: 12vh;
 }
 
 
 /* image */
 
-.white-product-image {
+.WHTE-product-image {
   position: relative;
 
   overflow: hidden;
@@ -3377,7 +3377,7 @@ body {
   background: #ded9d1;
 }
 
-.white-product-image img {
+.WHTE-product-image img {
   display: block;
 
   width: 100%;
@@ -3387,14 +3387,14 @@ body {
     transform 700ms cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.white-product-card:hover img {
+.WHTE-product-card:hover img {
   transform: scale(1.04);
 }
 
 
 /* number */
 
-.white-product-number {
+.WHTE-product-number {
   position: absolute;
 
   top: 15px;
@@ -3410,7 +3410,7 @@ body {
 
 /* info */
 
-.white-product-info {
+.WHTE-product-info {
   display: flex;
 
   justify-content: space-between;
@@ -3431,7 +3431,7 @@ body {
    END
    ========================================================= */
 
-.white-end {
+.WHTE-end {
   min-height: 80vh;
 
   display: flex;
@@ -3450,7 +3450,7 @@ body {
   background: #ebe7e1;
 }
 
-.white-end > p {
+.WHTE-end > p {
   color: rgba(8, 8, 8, 0.5);
 
   font-size: 8px;
@@ -3458,7 +3458,7 @@ body {
   letter-spacing: 0.4em;
 }
 
-.white-end h2 {
+.WHTE-end h2 {
   margin: 35px 0 60px;
 
   font-family: "Times New Roman", serif;
@@ -3470,7 +3470,7 @@ body {
   letter-spacing: -0.08em;
 }
 
-.white-back {
+.WHTE-back {
   color: #080808;
 
   font-size: 8px;
@@ -3487,7 +3487,7 @@ body {
     opacity 300ms ease;
 }
 
-.white-back:hover {
+.WHTE-back:hover {
   opacity: 0.5;
 }
 
@@ -3498,58 +3498,58 @@ body {
 
 @media (max-width: 767px) {
 
-  .white-nav {
+  .WHTE-nav {
     padding: 20px;
   }
 
-  .white-nav-right {
+  .WHTE-nav-right {
     gap: 10px;
 
     font-size: 6px;
   }
 
-  .white-intro {
+  .WHTE-intro {
     display: block;
 
     padding: 15vh 8vw;
   }
 
-  .white-intro-number {
+  .WHTE-intro-number {
     margin-bottom: 40px;
   }
 
-  .white-intro-copy {
+  .WHTE-intro-copy {
     margin-top: 40px;
   }
 
-  .white-product-wall {
+  .WHTE-product-wall {
     grid-template-columns: 1fr 1fr;
 
     gap: 10vh 15px;
   }
 
-  .white-product-card:nth-child(n) {
+  .WHTE-product-card:nth-child(n) {
     margin-top: 0;
   }
 
-  .white-product-card:nth-child(2),
-  .white-product-card:nth-child(5) {
+  .WHTE-product-card:nth-child(2),
+  .WHTE-product-card:nth-child(5) {
     margin-top: 10vh;
   }
-.white-product-card {
+.WHTE-product-card {
   display: block;
 
   color: inherit;
 
   text-decoration: none;
 }
-  .white-product-info {
+  .WHTE-product-info {
     display: block;
 
     line-height: 1.7;
   }
 
-  .white-product-info span:last-child {
+  .WHTE-product-info span:last-child {
     display: block;
   }
 
@@ -3587,8 +3587,8 @@ body {
    NAV BUTTON RESET
    ========================================================= */
 
-.bhang-logo,
-.white-logo {
+.BHNG-logo,
+.WHTE-logo {
   border: 0;
 
   background: transparent;
@@ -3618,12 +3618,12 @@ body {
    THEMES
    ========================================================= */
 
-.shop-product-white {
+.shop-product-WHTE {
   background: #ebe8e2;
   color: #111;
 }
 
-.shop-product-bhang {
+.shop-product-BHNG {
   background: #050505;
   color: #f5f5f5;
 }
@@ -4021,7 +4021,7 @@ body {
 }
 
 
-.shop-product-bhang
+.shop-product-BHNG
 .shop-product-size-options button.selected {
   color: #050505;
 }
@@ -4115,7 +4115,7 @@ body {
 }
 
 
-.shop-product-bhang .shop-product-add:hover {
+.shop-product-BHNG .shop-product-add:hover {
   color: #050505;
 }
 
@@ -4289,7 +4289,7 @@ body {
 
   background: #050505;
 
-  color: white;
+  color: WHTE;
 
   display: flex;
 
@@ -4311,7 +4311,7 @@ body {
 
 
 .product-not-found a {
-  color: white;
+  color: WHTE;
 
   font-size: 9px;
 
@@ -4732,7 +4732,7 @@ body {
 
   margin: 0 0 25px 0;
 
-  white-space: nowrap;
+  WHTE-space: nowrap;
 }
 
 
@@ -4837,7 +4837,7 @@ body {
   .shop-product-information h1 {
     font-size: 3.5rem !important;
 
-    white-space: normal;
+    WHTE-space: normal;
   }
 
 }
@@ -5010,7 +5010,7 @@ body {
   line-height: 0.82;
   letter-spacing: -0.07em;
 
-  white-space: nowrap;
+  WHTE-space: nowrap;
 }
 
 
@@ -5266,7 +5266,7 @@ body {
 
   .product-title {
     font-size: 64px;
-    white-space: normal;
+    WHTE-space: normal;
   }
 
   .product-price {

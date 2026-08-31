@@ -61,8 +61,8 @@ export default function Cursor() {
       }}
     >
       <img
-        src="/cursor/bhang-glass.png"
-        alt="Bhang glass cursor"
+        src="/cursor/BHNG-glass.png"
+        alt="BHNG glass cursor"
         style={{
           width: "55px",
           height: "55px",

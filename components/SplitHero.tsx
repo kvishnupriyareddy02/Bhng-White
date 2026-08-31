@@ -20,10 +20,10 @@ export default function SplitHero() {
       {/* Left Text */}
       <div className="absolute left-1/4 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none">
         <h1
-          className="text-white text-7xl font-bold uppercase leading-none"
+          className="text-WHTE text-7xl font-bold uppercase leading-none"
           style={{ fontFamily: "Times New Roman, serif" }}
         >
-          BHANG
+          BHNG
         </h1>
       </div>
 
@@ -33,7 +33,7 @@ export default function SplitHero() {
           className="text-black text-7xl font-bold uppercase leading-none"
           style={{ fontFamily: "Times New Roman, serif" }}
         >
-          WHITE
+          WHTE
         </h1>
       </div>
 

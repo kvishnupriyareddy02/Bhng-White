@@ -20,13 +20,13 @@ export default function Hero() {
       </div>
 
       {/* Text layer */}
-      <div className="relative z-20 h-screen flex flex-col items-center justify-center text-white">
+      <div className="relative z-20 h-screen flex flex-col items-center justify-center text-WHTE">
         <h1 className="text-8xl font-serif">
           B & W
         </h1>
 
         <p className="mt-10 tracking-[1rem]">
-          BHANG & WHITE
+          BHNG & WHTE
         </p>
       </div>
 

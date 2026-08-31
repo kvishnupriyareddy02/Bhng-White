@@ -44,7 +44,7 @@ export default function FashionReveal() {
         />
 
 
-        {/* Dark Bhang Clothing */}
+        {/* Dark BHNG Clothing */}
         <img
           src="/model/dark-clothes.png"
           alt="dark clothing"
@@ -60,10 +60,10 @@ export default function FashionReveal() {
         />
 
 
-        {/* White Printed Clothing */}
+        {/* WHTE Printed Clothing */}
         <img
-          src="/model/white-clothes.png"
-          alt="white clothing"
+          src="/model/WHTE-clothes.png"
+          alt="WHTE clothing"
           className="
           absolute
           w-full

@@ -7,7 +7,7 @@ import Cursor from "@/components/Cursor";
 type Product = {
   id: string;
   title: string;
-  collection: "BHANG" | "WHITE";
+  collection: "BHNG" | "WHTE";
   image: string;
   price: string;
   description: string;
@@ -18,7 +18,7 @@ const products: Product[] = [
   {
     id: "bw-01",
     title: "B&W 01",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-01.jpg",
     price: "₹2,799",
     description:
@@ -34,7 +34,7 @@ const products: Product[] = [
   {
     id: "bw-02",
     title: "B&W 02",
-    collection: "WHITE",
+    collection: "WHTE",
     image: "/products/hoodie-02.jpg",
     price: "₹2,799",
     description:
@@ -50,7 +50,7 @@ const products: Product[] = [
   {
     id: "bw-03",
     title: "B&W 03",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-03.jpg",
     price: "₹2,799",
     description:
@@ -66,7 +66,7 @@ const products: Product[] = [
   {
     id: "bw-04",
     title: "B&W 04",
-    collection: "WHITE",
+    collection: "WHTE",
     image: "/products/hoodie-04.jpg",
     price: "₹2,799",
     description:
@@ -82,7 +82,7 @@ const products: Product[] = [
   {
     id: "bw-05",
     title: "B&W 05",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-05.jpg",
     price: "₹2,799",
     description:
@@ -98,7 +98,7 @@ const products: Product[] = [
   {
     id: "bw-06",
     title: "B&W 06",
-    collection: "WHITE",
+    collection: "WHTE",
     image: "/products/hoodie-06.jpg",
     price: "₹2,799",
     description:
@@ -114,7 +114,7 @@ const products: Product[] = [
   {
     id: "bw-07",
     title: "B&W 07",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-07.jpg",
     price: "₹2,999",
     description:
@@ -130,7 +130,7 @@ const products: Product[] = [
   {
     id: "bw-08",
     title: "B&W 08",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-08.jpg",
     price: "₹2,999",
     description:
@@ -146,7 +146,7 @@ const products: Product[] = [
   {
     id: "bw-09",
     title: "B&W 09",
-    collection: "WHITE",
+    collection: "WHTE",
     image: "/products/hoodie-09.jpg",
     price: "₹2,999",
     description:
@@ -162,7 +162,7 @@ const products: Product[] = [
   {
     id: "bw-10",
     title: "B&W 10",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-10.jpg",
     price: "₹2,999",
     description:
@@ -178,11 +178,11 @@ const products: Product[] = [
   {
     id: "bw-11",
     title: "B&W 11",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-11.jpg",
     price: "₹2,999",
     description:
-      "A bold continuation of the Bhang collection.",
+      "A bold continuation of the BHNG collection.",
     details: [
       "Oversized fit",
       "Heavyweight cotton",
@@ -194,7 +194,7 @@ const products: Product[] = [
   {
     id: "bw-12",
     title: "B&W 12",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-12.jpg",
     price: "₹2,999",
     description:
@@ -210,7 +210,7 @@ const products: Product[] = [
   {
     id: "bw-13",
     title: "B&W 13",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-13.jpg",
     price: "₹2,999",
     description:
@@ -226,7 +226,7 @@ const products: Product[] = [
   {
     id: "bw-14",
     title: "B&W 14",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-14.jpg",
     price: "₹2,999",
     description:
@@ -242,11 +242,11 @@ const products: Product[] = [
   {
     id: "bw-15",
     title: "B&W 15",
-    collection: "BHANG",
+    collection: "BHNG",
     image: "/products/hoodie-15.jpg",
     price: "₹2,999",
     description:
-      "The final statement from the current Bhang collection.",
+      "The final statement from the current BHNG collection.",
     details: [
       "Oversized fit",
       "Heavyweight cotton",
@@ -336,12 +336,12 @@ export default function ProductPage() {
             SHOP
           </button>
 
-          <button onClick={() => router.push("/bhang")}>
-            BHANG
+          <button onClick={() => router.push("/BHNG")}>
+            BHNG
           </button>
 
-          <button onClick={() => router.push("/white")}>
-            WHITE
+          <button onClick={() => router.push("/WHTE")}>
+            WHTE
           </button>
 
           <button onClick={() => router.push("/")}>
